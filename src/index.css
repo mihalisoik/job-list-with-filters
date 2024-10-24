@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  background-color: hsl(180, 52%, 96%);
+  font-size: 15px;
+  font-family: League Spartan,Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+  background-color: hsl(180, 29%, 50%);
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.search-button-closed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 310px;
+  background-color: transparent;
+  width: 35px;
+  border-radius: 50px;
+}
+
+.search-button-opened {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 35px;
+  border-radius: 50px;
+}
+
+.search-icon {
+  width: 30px;
+}
+
+
+.job-container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  background-color: white;
+  margin: 25px 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgb(177, 177, 177);
+}
+
+.no-job-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 25px 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgb(177, 177, 177);
+}
+
+.job-info-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-left: 20px;
+}
+
+.job-name {
+  color: hsl(180, 29%, 50%);
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.job-info {
+  font-size: 13px;
+  color: gray;
+}
+
+.job-requirments {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  margin-left: auto;
+}
+
+.requirments {
+  color: hsl(180, 29%, 50%);
+  font-weight: 700;
+  background-color: hsl(180, 52%, 96%);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.name-container {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.is-new {
+  color: white;
+  background-color: hsl(180, 29%, 50%);
+  padding: 7px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.filter-bar {
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: white;
+  height: 40px;
+  box-shadow: 2px 2px 15px rgb(177, 177, 177);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.filters {
+  display: flex;
+  column-gap: 15px;
+}
+
+.filter-container {
+  color: hsl(180, 29%, 50%);
+  height: 12px;
+  font-weight: 700;
+  background-color: hsl(180, 52%, 96%);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  margin-right: 3px;
+} 
+
+.filter-container:hover {
+  color: hsl(180, 52%, 96%);
+  background-color: hsl(180, 29%, 50%);
+}
+
+.filter-container:active {
+  color: hsl(180, 52%, 96%);
+  background-color: hsl(180, 28%, 30%);
+}
+
+.filter-cancel-button {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: hsl(180, 52%, 96%);
+  background-color: hsl(180, 28%, 30%);
+}
+
+.filter-cancel-button div {
+  margin-bottom: 5px;
+}
+
+
+
+
